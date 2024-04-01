@@ -10,7 +10,7 @@ public class app {
 	}
 
 	public static void main(String[] args) {
-	
+	   System.out.println("Prueba en linea");
 		veterinaryController veterinaryController = new veterinaryController();
 		while (true) {
 		try {
