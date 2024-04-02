@@ -10,7 +10,7 @@ import app.service.VeterinaryanService;
 import app.validators.PersonValidator;
 import app.validators.petsValidator;
 
-public class veterinaryController {
+public class VeterinaryController {
 private static PersonValidator personValidator = new PersonValidator () ;
 private static petsValidator petsValidator = new petsValidator ();
 private static Scanner reader = new Scanner(System.in);

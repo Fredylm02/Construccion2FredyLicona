@@ -1,15 +1,15 @@
-package app.models;
+package app.dto;
 
 import java.sql.Date;
 
-public class MedicalHistory {
+public class HistoryClinicDto {
 	
 private Date registerDate;
 private String veterinaryMedical;
 private String reasonforConsultation;
 private String symptomatology;
 private String pawing; // procedimiento
-private String diagnostico;
+private String diagnostic;
 private String medication;
 private String doseofMedication;
 private long Idorder;
@@ -49,10 +49,10 @@ public void setPawing(String pawing) {
 	this.pawing = pawing;
 }
 public String getDiagnostico() {
-	return diagnostico;
+	return diagnostic;
 }
 public void setDiagnostico(String diagnostico) {
-	this.diagnostico = diagnostico;
+	this.diagnostic = diagnostico;
 }
 public String getMedication() {
 	return medication;

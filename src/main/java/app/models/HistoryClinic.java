@@ -1,8 +1,8 @@
-package app.dto;
+package app.models;
 
 import java.sql.Date;
 
-public class MedicalHistoryDto {
+public class HistoryClinic {
 	
 private Date registerDate;
 private String veterinaryMedical;

@@ -9,5 +9,6 @@ public interface VeterinaryService {
 	public  void createUser(PersonDto personDto) throws Exception ;
 	
 	public  void createPets (PetsDto PetsDto) throws Exception ;
+
 }
 

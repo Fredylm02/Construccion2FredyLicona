@@ -2,7 +2,7 @@ package app;
 
 import java.util.Scanner;
 import app.service.VeterinaryService;
-import app.controller.veterinaryController;
+import app.controller.VeterinaryController;
 
 public class app {
 
@@ -10,8 +10,7 @@ public class app {
 	}
 
 	public static void main(String[] args) {
-	   System.out.println("Prueba en linea");
-		veterinaryController veterinaryController = new veterinaryController();
+		VeterinaryController veterinaryController = new VeterinaryController();
 		while (true) {
 		try {
 			veterinaryController.createUser();
